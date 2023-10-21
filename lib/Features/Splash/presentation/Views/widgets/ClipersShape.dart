@@ -1,19 +1,4 @@
-import 'package:bookly_2/core/utils/styles.dart';
 import 'package:flutter/material.dart';
-
-class SplashViewBody extends StatelessWidget {
-  const SplashViewBody({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      children: [],
-                    ),
-                  )
-                ],
-    );
-  }
-}
 
 class Container3Clipper extends CustomClipper<Path> {
   @override
@@ -45,7 +30,7 @@ class Container3Clipper extends CustomClipper<Path> {
   }
 
   @override
-  bool shouldReclip(CustomClipper old) => true;
+  bool shouldReclip(CustomClipper oldClipper) => false;
 }
 
 class Container2Clipper extends CustomClipper<Path> {
@@ -63,7 +48,7 @@ class Container2Clipper extends CustomClipper<Path> {
   }
 
   @override
-  bool shouldReclip(CustomClipper old) => true;
+  bool shouldReclip(CustomClipper oldClipper) => false;
 }
 
 class RPSCustomPainter extends CustomPainter {
@@ -97,38 +82,5 @@ class Container1Clipper extends CustomClipper<Path> {
   }
 
   @override
-  bool shouldReclip(CustomClipper old) => true;
+  bool shouldReclip(CustomClipper oldClipper) => false;
 }
-
-
-
-
-// crossAxisAlignment: CrossAxisAlignment.center,
-// children: [
-//   const Spacer(
-//     flex: 3,
-//   ),
-//   Image.asset(
-//     'assets/images/Bookshop-pana.png',
-//     width: MediaQuery.of(context).size.width,
-//     height: MediaQuery.of(context).size.height / 2.6,
-//   ),
-//   const Spacer(
-//     flex: 3,
-//   ),
-//   Text(
-//     'Bookly',
-//     style: AppStyle.textStyle20.copyWith(
-//       fontSize: 33,
-//       wordSpacing: 5,
-//       fontFamily: 'NanumGothic',
-//     ),
-//     // style: TextStyle(color: Colors.black),
-//   ),
-//   const Spacer(
-//     flex: 3,
-//   ),
-//   const Row(
-//     children: [],
-//   )
-// ],
