@@ -18,7 +18,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
     with SingleTickerProviderStateMixin {
   late AnimationController animationController;
 
-  late Animation<Offset> slidingAnimation;
+  late Animation<double> animation;
 
   @override
   void initState() {
@@ -36,7 +36,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: const Color(0xff171B36),
+      color: Colors.white,
       height: MediaQuery.of(context).size.height,
       child: Stack(
         children: [
@@ -52,13 +52,13 @@ class _SplashViewBodyState extends State<SplashViewBody>
                 children: [
                   Expanded(
                     child: CusytomCliper(
-                      ClipColor: const Color(0xffF6C85D),
+                      ClipColor: Color.fromARGB(255, 16, 32, 95),
                       clipper: Container2Clipper(),
                     ),
                   ),
                   Expanded(
                     child: CusytomCliper(
-                      ClipColor: const Color(0XFF09E8B2),
+                      ClipColor: Color.fromARGB(255, 43, 70, 63),
                       clipper: Container3Clipper(),
                     ),
                   ),
@@ -66,19 +66,20 @@ class _SplashViewBodyState extends State<SplashViewBody>
               ),
             ],
           ),
-          SlidingLogoAnimation(slidingAnimation: slidingAnimation),
+          SlidingLogoAnimation(
+            slidingAnimation: animation,
+            opacity: animation,
+          ),
         ],
       ),
     );
   }
 
   void tweenanimation() {
-    animationController = AnimationController(
-        vsync: this, duration: const Duration(milliseconds: 1500));
+    animationController =
+        AnimationController(vsync: this, duration: const Duration(seconds: 4));
 
-    slidingAnimation =
-        Tween<Offset>(begin: const Offset(0, 2), end: Offset.zero)
-            .animate(animationController);
+    animation = Tween<double>(begin: 0, end: 1).animate(animationController);
     animationController.forward();
   }
 

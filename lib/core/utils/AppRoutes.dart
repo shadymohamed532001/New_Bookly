@@ -2,6 +2,7 @@
 
 import 'package:bookly_2/Features/OnBording/presentation/Views/OnBordingView.dart';
 import 'package:bookly_2/Features/Splash/presentation/Views/SplahView.dart';
+import 'package:bookly_2/try.dart';
 import 'package:go_router/go_router.dart';
 
 abstract class AppRouter {
@@ -15,16 +16,12 @@ abstract class AppRouter {
     routes: [
       GoRoute(
         path: '/',
-        builder: (context, state) => const SplashView(),
+        builder: (context, state) => SplashView(),
       ),
       GoRoute(
         path: KbookonBording,
         builder: (context, state) => const OnBordingView(),
       ),
-      // GoRoute(
-      //   path: KSearchsView,
-      //   builder: (context, state) => const SearchView(),
-      // ),
       // GoRoute(
       //   path: KhomeView,
       //   builder: (context, state) => const HomeView(),

@@ -1,3 +1,5 @@
+// ignore_for_file: non_constant_identifier_names
+
 import 'package:flutter/material.dart';
 
 class CusytomCliper extends StatelessWidget {
@@ -6,10 +8,12 @@ class CusytomCliper extends StatelessWidget {
     required this.clipper,
     this.width,
     required this.ClipColor,
+    this.transform,
   });
   final CustomClipper<Path>? clipper;
   final double? width;
   final Color ClipColor;
+  final Matrix4? transform;
 
   @override
   Widget build(BuildContext context) {
