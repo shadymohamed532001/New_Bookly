@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:bookly_2/Features/Splash/presentation/Views/widgets/ClipersShape.dart';
 import 'package:bookly_2/Features/Splash/presentation/Views/widgets/CusytomCliper.dart';
 import 'package:bookly_2/Features/Splash/presentation/Views/widgets/SlidingLogoAnimation.dart';
@@ -81,7 +83,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
   }
 
   void navigetToOnBord() {
-    Future.delayed(const Duration(milliseconds: 2000), () {
+    Future.delayed(const Duration(milliseconds: 2050), () {
       GoRouter.of(context).push(AppRouter.KbookonBording);
     });
   }
