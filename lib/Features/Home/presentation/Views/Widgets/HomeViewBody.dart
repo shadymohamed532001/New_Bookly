@@ -1,6 +1,5 @@
 import 'package:bookly_2/Features/Home/presentation/Views/Widgets/HomeAppBar.dart';
 import 'package:bookly_2/Features/Home/presentation/Views/Widgets/HomeClip.dart';
-import 'package:bookly_2/core/utils/CliperShape.dart';
 import 'package:flutter/material.dart';
 
 class HomeViewBody extends StatelessWidget {
