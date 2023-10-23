@@ -1,6 +1,8 @@
 import 'package:bookly_2/Features/OnBording/presentation/Views/widgets/ListOfOnBordingContinte.dart';
+import 'package:bookly_2/core/utils/AppRoutes.dart';
 import 'package:bookly_2/core/utils/styles.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class CustomOnBordBottom extends StatelessWidget {
   const CustomOnBordBottom({
@@ -20,7 +22,9 @@ class CustomOnBordBottom extends StatelessWidget {
         width: double.infinity,
         child: ElevatedButton(
             onPressed: () {
-              if (currnetIndex == continte.length - 1) {}
+              if (currnetIndex == continte.length - 1) {
+                GoRouter.of(context).pushReplacement(AppRouter.KhomeView);
+              }
               pageController.nextPage(
                   duration: const Duration(microseconds: 100),
                   curve: Curves.bounceIn);

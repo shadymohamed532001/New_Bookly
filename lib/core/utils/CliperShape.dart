@@ -1,5 +1,41 @@
 import 'package:flutter/material.dart';
 
+class Container4Clipper extends CustomClipper<Path> {
+  @override
+  Path getClip(Size size) {
+    Path path_0 = Path();
+    path_0.moveTo(size.width * -0.0132857, size.height * -0.0061214);
+    path_0.quadraticBezierTo(size.width * 0.1650857, size.height * 0.0211929,
+        size.width * 0.2378143, size.height * 0.0808429);
+    path_0.cubicTo(
+        size.width * 0.2796857,
+        size.height * 0.1165286,
+        size.width * 0.3155143,
+        size.height * 0.1660286,
+        size.width * 0.3223714,
+        size.height * 0.2322429);
+    path_0.cubicTo(
+        size.width * 0.3264714,
+        size.height * 0.2743429,
+        size.width * 0.2971286,
+        size.height * 0.3555143,
+        size.width * 0.2056571,
+        size.height * 0.3987357);
+    path_0.quadraticBezierTo(size.width * 0.1368143, size.height * 0.4377786,
+        size.width * -0.2013000, size.height * 0.5248929);
+    path_0.quadraticBezierTo(size.width * 0.8774143, size.height * 0.4739357,
+        size.width * 1.0685000, size.height * 0.4024857);
+    path_0.quadraticBezierTo(size.width * 1.1659714, size.height * 0.3755643,
+        size.width * 1.1697286, size.height * -0.0031857);
+
+    path_0.close();
+    return path_0;
+  }
+
+  @override
+  bool shouldReclip(CustomClipper oldClipper) => false;
+}
+
 class Container3Clipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {

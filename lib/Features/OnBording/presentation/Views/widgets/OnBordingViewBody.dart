@@ -1,7 +1,10 @@
 import 'package:bookly_2/Features/OnBording/presentation/Views/widgets/CustomOnBordBottom.dart';
+import 'package:bookly_2/Features/OnBording/presentation/Views/widgets/CustomSkiper.dart';
 import 'package:bookly_2/Features/OnBording/presentation/Views/widgets/ListOfOnBordingContinte.dart';
+import 'package:bookly_2/core/utils/AppRoutes.dart';
 import 'package:bookly_2/core/utils/styles.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class OnBordingViewBody extends StatefulWidget {
@@ -44,7 +47,10 @@ class _OnBordingViewBodyState extends State<OnBordingViewBody> {
                 child: Column(
                   children: [
                     CustomSkiper(
-                      onTap: () {},
+                      onTap: () {
+                        GoRouter.of(context)
+                            .pushReplacement(AppRouter.KhomeView);
+                      },
                     ),
                     Padding(
                       padding: const EdgeInsets.only(
@@ -103,37 +109,6 @@ class _OnBordingViewBodyState extends State<OnBordingViewBody> {
           pageController: pageController,
         )
       ],
-    );
-  }
-}
-
-class CustomSkiper extends StatelessWidget {
-  const CustomSkiper({
-    super.key,
-    this.onTap,
-  });
-  final void Function()? onTap;
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onTap,
-      child: Padding(
-        padding: const EdgeInsets.only(
-          right: 40,
-          left: 40,
-          top: 20,
-        ),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.end,
-          children: [
-            Text(
-              'Skip',
-              textAlign: TextAlign.end,
-              style: AppStyle.textStyle20.copyWith(fontWeight: FontWeight.w500),
-            ),
-          ],
-        ),
-      ),
     );
   }
 }

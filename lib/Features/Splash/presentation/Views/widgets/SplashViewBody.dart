@@ -1,9 +1,9 @@
 // ignore_for_file: file_names
 
-import 'package:bookly_2/Features/Splash/presentation/Views/widgets/ClipersShape.dart';
 import 'package:bookly_2/Features/Splash/presentation/Views/widgets/CusytomCliper.dart';
 import 'package:bookly_2/Features/Splash/presentation/Views/widgets/SlidingLogoAnimation.dart';
 import 'package:bookly_2/core/utils/AppRoutes.dart';
+import 'package:bookly_2/core/utils/CliperShape.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
