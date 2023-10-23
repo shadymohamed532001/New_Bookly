@@ -36,7 +36,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.white,
+      // color: Color.fromARGB(255, 242, 238, 238),
       height: MediaQuery.of(context).size.height,
       child: Stack(
         children: [
@@ -52,13 +52,13 @@ class _SplashViewBodyState extends State<SplashViewBody>
                 children: [
                   Expanded(
                     child: CusytomCliper(
-                      ClipColor: Color.fromARGB(255, 16, 32, 95),
+                      ClipColor: const Color.fromARGB(255, 16, 32, 95),
                       clipper: Container2Clipper(),
                     ),
                   ),
                   Expanded(
                     child: CusytomCliper(
-                      ClipColor: Color.fromARGB(255, 43, 70, 63),
+                      ClipColor: const Color.fromARGB(255, 43, 70, 63),
                       clipper: Container3Clipper(),
                     ),
                   ),
@@ -66,8 +66,8 @@ class _SplashViewBodyState extends State<SplashViewBody>
               ),
             ],
           ),
-          SlidingLogoAnimation(
-            slidingAnimation: animation,
+          FadeTransitionLogoAnimation(
+            FadeTransitiongAnimation: animation,
             opacity: animation,
           ),
         ],

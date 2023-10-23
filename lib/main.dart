@@ -1,4 +1,5 @@
 import 'package:bookly_2/core/utils/AppRoutes.dart';
+import 'package:bookly_2/core/utils/constanse.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       routerConfig: AppRouter.router,
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light().copyWith(
-        scaffoldBackgroundColor: Colors.white,
+        scaffoldBackgroundColor: kScafoldColor,
       ),
     );
   }

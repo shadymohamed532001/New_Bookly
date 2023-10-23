@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
-class SlidingLogoAnimation extends StatelessWidget {
-  const SlidingLogoAnimation({
+class FadeTransitionLogoAnimation extends StatelessWidget {
+  const FadeTransitionLogoAnimation({
     super.key,
-    required this.slidingAnimation,
+    required this.FadeTransitiongAnimation,
     required this.opacity,
   });
 
-  final Animation<double> slidingAnimation;
+  final Animation<double> FadeTransitiongAnimation;
   final Animation<double> opacity;
 
   @override
   Widget build(BuildContext context) {
     return AnimatedBuilder(
-        animation: slidingAnimation,
+        animation: FadeTransitiongAnimation,
         builder: (context, widget) {
           return FadeTransition(
             opacity: opacity,
