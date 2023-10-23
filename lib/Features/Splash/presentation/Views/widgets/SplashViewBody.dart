@@ -35,9 +35,10 @@ class _SplashViewBodyState extends State<SplashViewBody>
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      // color: Color.fromARGB(255, 242, 238, 238),
-      height: MediaQuery.of(context).size.height,
+    var heignt = MediaQuery.of(context).size.height;
+
+    return SizedBox(
+      height: heignt,
       child: Stack(
         children: [
           CusytomCliper(
@@ -79,13 +80,13 @@ class _SplashViewBodyState extends State<SplashViewBody>
     animationController =
         AnimationController(vsync: this, duration: const Duration(seconds: 4));
 
-    animation = Tween<double>(begin: 0, end: 1).animate(animationController);
+    animation = Tween<double>(begin: 0, end: 1.8).animate(animationController);
     animationController.forward();
   }
 
   void navigetToOnBord() {
     Future.delayed(const Duration(milliseconds: 2050), () {
-      GoRouter.of(context).push(AppRouter.KbookonBording);
+      GoRouter.of(context).pushReplacement(AppRouter.KbookonBording);
     });
   }
 }
