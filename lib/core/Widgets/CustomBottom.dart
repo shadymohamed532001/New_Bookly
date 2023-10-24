@@ -1,4 +1,3 @@
-import 'package:bookly_2/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
 class CustomBottom extends StatelessWidget {
