@@ -1,3 +1,4 @@
+import 'package:bookly_2/Features/Home/presentation/Views/Widgets/customBookRate.dart';
 import 'package:bookly_2/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
@@ -12,8 +13,12 @@ class BestSillerListViewItems extends StatelessWidget {
       onTap: () {
         // GoRouter.of(context).push(AppRouter.KbookDietilsView);
       },
-      child: SizedBox(
-        height: 140,
+      child: Container(
+        height: 130,
+        decoration: BoxDecoration(
+          color: const Color(0xffFFFFFF),
+          borderRadius: BorderRadius.circular(20),
+        ),
         child: Row(
           children: [
             AspectRatio(
@@ -31,10 +36,11 @@ class BestSillerListViewItems extends StatelessWidget {
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   SizedBox(
                     width: MediaQuery.of(context).size.width / 1.6,
-                    child: Text(
+                    child: const Text(
                       'Harry Potter and the Goblet of Fie ',
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
@@ -66,7 +72,7 @@ class BestSillerListViewItems extends StatelessWidget {
                             fontWeight: FontWeight.w900,
                           ),
                         ),
-                        // const customBookRate()
+                        const customBookRate()
                       ],
                     ),
                   )

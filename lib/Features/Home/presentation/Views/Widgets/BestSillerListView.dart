@@ -10,13 +10,12 @@ class BestSillerListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      padding: EdgeInsets.zero,
       shrinkWrap: true,
       physics: const NeverScrollableScrollPhysics(),
       itemCount: 10,
       itemBuilder: (context, index) {
-        return Padding(
-          padding: EdgeInsets.symmetric(vertical: 5),
+        return const Padding(
+          padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
           child: BestSillerListViewItems(),
         );
       },
