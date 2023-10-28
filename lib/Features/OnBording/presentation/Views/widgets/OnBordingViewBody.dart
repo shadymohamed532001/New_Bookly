@@ -64,9 +64,10 @@ class _OnBordingViewBodyState extends State<OnBordingViewBody> {
                     Text(
                       continte[index].tittle,
                       style: AppStyle.textStyle20.copyWith(
-                          fontWeight: FontWeight.w800,
-                          fontFamily: 'NanumGothic',
-                          color: const Color(0xff292B38)),
+                        fontWeight: FontWeight.w800,
+                        fontFamily: 'NanumGothic',
+                        color: const Color(0xff292B38),
+                      ),
                     ),
                     const SizedBox(
                       height: 15,
@@ -76,6 +77,7 @@ class _OnBordingViewBodyState extends State<OnBordingViewBody> {
                         padding: const EdgeInsets.symmetric(horizontal: 10),
                         child: Text(
                           continte[index].subtittle,
+                          textAlign: TextAlign.center,
                           style: GoogleFonts.spaceGrotesk(
                             color: const Color(0XFF292B38),
                             fontSize: 15,
