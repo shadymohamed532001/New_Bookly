@@ -1,6 +1,8 @@
 import 'package:bookly_2/Features/Home/presentation/Views/Widgets/customBookRate.dart';
+import 'package:bookly_2/core/utils/AppRoutes.dart';
 import 'package:bookly_2/core/utils/styles.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class BestSillerListViewItems extends StatelessWidget {
   const BestSillerListViewItems({
@@ -11,7 +13,7 @@ class BestSillerListViewItems extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        // GoRouter.of(context).push(AppRouter.KbookDietilsView);
+        GoRouter.of(context).push(AppRouter.KbookDietilsView);
       },
       child: Container(
         height: 130,

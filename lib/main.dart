@@ -1,5 +1,5 @@
 import 'package:bookly_2/core/utils/AppRoutes.dart';
-import 'package:bookly_2/core/utils/constanse.dart';
+import 'package:bookly_2/core/utils/MyTheme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,9 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp.router(
       routerConfig: AppRouter.router,
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.light().copyWith(
-        scaffoldBackgroundColor: kScafoldColor,
-      ),
+      theme: MyTheme.lightTheme,
     );
   }
 }

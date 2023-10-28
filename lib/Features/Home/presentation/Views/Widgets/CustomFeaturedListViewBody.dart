@@ -16,7 +16,9 @@ class CustomFeaturedListViewBody extends StatelessWidget {
         itemCount: 10,
         itemBuilder: (BuildContext context, int index) {
           return const Padding(
-            padding: EdgeInsets.only(left: 16),
+            padding: EdgeInsets.only(
+              left: 16,
+            ),
             child: CustomListViewItems(),
           );
         },
