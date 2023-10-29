@@ -1,38 +1,40 @@
+import 'package:bookly_2/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
 class CustomBottom extends StatelessWidget {
   const CustomBottom({
     super.key,
-    required this.onPressed,
-    required this.bottomTittle,
-    this.height = 60,
-    this.width = double.infinity,
-    this.textStyle,
+    required this.text,
+    required this.backgroundColor,
+    required this.borderRadius,
+    this.onPressed,
+    this.textcolor,
   });
 
-  final void Function() onPressed;
-  final String bottomTittle;
-  final double? height;
-  final TextStyle? textStyle;
-  final double? width;
+  final BorderRadiusGeometry? borderRadius;
+
+  final Color? textcolor;
+  final String text;
+  final Color backgroundColor;
+  final void Function()? onPressed;
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-        height: height,
-        width: width,
-        child: ElevatedButton(
-            onPressed: onPressed,
-            style: ElevatedButton.styleFrom(
-              backgroundColor: const Color(0XFFDE7773),
-              shadowColor: Colors.grey,
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(25),
-              ),
-            ),
-            child: Text(
-              bottomTittle,
-              style: textStyle,
-            )));
+      height: 53,
+      child: TextButton(
+        style: TextButton.styleFrom(
+          backgroundColor: backgroundColor,
+          shape: RoundedRectangleBorder(
+            borderRadius: borderRadius ?? BorderRadius.circular(16),
+          ),
+        ),
+        onPressed: () {},
+        child: Text(
+          text,
+          style: AppStyle.textStyle18.copyWith(color: textcolor),
+        ),
+      ),
+    );
   }
 }

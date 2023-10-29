@@ -8,7 +8,7 @@ class BestSillerListViewBuilder extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BestSillerListView();
+    return const BestSillerListView();
     // return BlocBuilder<NewsBooksCubit, NewsBooksState>(
     //   builder: (context, state) {
     //     if (state is NewsBooksFailuers) {

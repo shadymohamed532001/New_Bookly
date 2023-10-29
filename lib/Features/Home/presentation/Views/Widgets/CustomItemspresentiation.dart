@@ -63,13 +63,12 @@ class CustomItemspresentiation extends StatelessWidget {
                     ),
                     Row(
                       children: [
-                        CustomBottom(
-                          onPressed: () {},
-                          bottomTittle: 'Grab Now',
-                          height: 30,
-                          width: 90,
-                          textStyle: const TextStyle(fontSize: 12),
-                        ),
+                        // CustomBottom(
+                        //   onPressed: () {},
+                        //   text: 'Grip Now',
+                        //   backgroundColor: Colors.black38,
+                        //   borderRadius: null,
+                        // ),
                         const SizedBox(
                           width: 10,
                         ),

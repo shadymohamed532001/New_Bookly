@@ -1,5 +1,5 @@
 import 'package:bookly_2/Features/Home/presentation/Views/Widgets/BestSillerListView.dart';
-import 'package:bookly_2/Features/Home/presentation/Views/Widgets/CustomFeaturedListView.dart';
+import 'package:bookly_2/Features/Home/presentation/Views/Widgets/FeaturedListView.dart';
 import 'package:bookly_2/Features/Home/presentation/Views/Widgets/CustomItemspresentiation.dart';
 import 'package:bookly_2/Features/Home/presentation/Views/Widgets/HomeAppBar.dart';
 import 'package:bookly_2/Features/Home/presentation/Views/Widgets/HomeClip.dart';
