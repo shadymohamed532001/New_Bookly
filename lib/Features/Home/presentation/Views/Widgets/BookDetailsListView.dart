@@ -9,16 +9,19 @@ class BookDetailsListView extends StatelessWidget {
     return SizedBox(
       height: 180,
       width: double.infinity,
-      child: ListView.builder(
-        padding: EdgeInsets.zero,
-        scrollDirection: Axis.horizontal,
-        itemCount: 10,
-        itemBuilder: (BuildContext context, int index) {
-          return const Padding(
-            padding: EdgeInsets.only(left: 8, right: 8),
-            child: CustomBookListViewItems(),
-          );
-        },
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 4),
+        child: ListView.builder(
+          padding: EdgeInsets.zero,
+          scrollDirection: Axis.horizontal,
+          itemCount: 10,
+          itemBuilder: (BuildContext context, int index) {
+            return const Padding(
+              padding: EdgeInsets.only(left: 8, right: 8),
+              child: CustomBookListViewItems(),
+            );
+          },
+        ),
       ),
     );
   }
