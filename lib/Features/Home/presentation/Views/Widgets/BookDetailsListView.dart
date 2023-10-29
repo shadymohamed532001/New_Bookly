@@ -7,7 +7,7 @@ class BookDetailsListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 250,
+      height: 180,
       width: double.infinity,
       child: ListView.builder(
         padding: EdgeInsets.zero,
@@ -15,9 +15,7 @@ class BookDetailsListView extends StatelessWidget {
         itemCount: 10,
         itemBuilder: (BuildContext context, int index) {
           return const Padding(
-            padding: EdgeInsets.only(
-              left: 16,
-            ),
+            padding: EdgeInsets.only(left: 8, right: 8),
             child: CustomBookListViewItems(),
           );
         },

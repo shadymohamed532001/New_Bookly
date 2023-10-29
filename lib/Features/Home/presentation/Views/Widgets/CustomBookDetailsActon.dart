@@ -1,4 +1,5 @@
 import 'package:bookly_2/core/Widgets/CustomBottom.dart';
+import 'package:bookly_2/core/utils/MyTheme.dart';
 import 'package:flutter/material.dart';
 
 class CustomDetailsBookActions extends StatelessWidget {
@@ -9,7 +10,7 @@ class CustomDetailsBookActions extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 8),
+      padding: const EdgeInsets.symmetric(horizontal: 30),
       child: Row(
         children: [
           Expanded(
@@ -20,8 +21,8 @@ class CustomDetailsBookActions extends StatelessWidget {
               ),
               text: '19.99€',
               onPressed: () {},
-              textcolor: Colors.black,
-              backgroundColor: Colors.white,
+              textcolor: MyTheme.blackColor,
+              backgroundColor: MyTheme.whiteColor,
             ),
           ),
           Expanded(
@@ -32,8 +33,8 @@ class CustomDetailsBookActions extends StatelessWidget {
               ),
               text: 'Free preview',
               onPressed: () {},
-              textcolor: Colors.white,
-              backgroundColor: const Color(0xffEF8262),
+              textcolor: MyTheme.whiteColor,
+              backgroundColor: MyTheme.primaryColor,
             ),
           ),
         ],

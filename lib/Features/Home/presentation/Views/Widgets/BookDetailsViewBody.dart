@@ -1,6 +1,7 @@
 import 'package:bookly_2/Features/Home/presentation/Views/Widgets/BookDetailsListViewBuilder.dart';
 import 'package:bookly_2/Features/Home/presentation/Views/Widgets/CustomBookDetailsActon.dart';
 import 'package:bookly_2/Features/Home/presentation/Views/Widgets/customBookRate.dart';
+import 'package:bookly_2/core/utils/MyTheme.dart';
 import 'package:bookly_2/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
@@ -31,11 +32,9 @@ class _BookDetailsViewBodyState extends State<BookDetailsViewBody> {
                         padding: EdgeInsets.only(top: Height * 0.04),
                         width: Width,
                         height: Height * .3,
-                        decoration: const BoxDecoration(
-                          color: Color(
-                            0xff171B36,
-                          ),
-                          borderRadius: BorderRadius.only(
+                        decoration: BoxDecoration(
+                          color: MyTheme.blackColor,
+                          borderRadius: const BorderRadius.only(
                             bottomLeft: Radius.circular(30),
                             bottomRight: Radius.circular(
                               30,
@@ -58,8 +57,9 @@ class _BookDetailsViewBodyState extends State<BookDetailsViewBody> {
                                   children: [
                                     Text(
                                       'The Psychology of Money',
-                                      style: AppStyle.textStyle16
-                                          .copyWith(color: Colors.white),
+                                      style: AppStyle.textStyle16.copyWith(
+                                        color: MyTheme.whiteColor,
+                                      ),
                                     ),
                                     const SizedBox(
                                       height: 13,
@@ -67,7 +67,7 @@ class _BookDetailsViewBodyState extends State<BookDetailsViewBody> {
                                     Text(
                                       'The psychology of money is the study of our behavior with money. Success with money isn\'t about knowledge, IQ or how good you are at math. It\'s about behavior, and everyone is prone to certain behaviors over others.',
                                       style: AppStyle.textStyle14.copyWith(
-                                        color: const Color(0xffDDDDE2),
+                                        color: MyTheme.greyColor,
                                         fontSize: 11,
                                       ),
                                     ),
@@ -88,7 +88,7 @@ class _BookDetailsViewBodyState extends State<BookDetailsViewBody> {
                         height: Width / 4.4,
                         width: Width / 1.25,
                         decoration: BoxDecoration(
-                            color: const Color(0XFFFFFFFF),
+                            color: MyTheme.whiteColor,
                             borderRadius: BorderRadius.circular(20)),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -104,14 +104,15 @@ class _BookDetailsViewBodyState extends State<BookDetailsViewBody> {
                                 Text(
                                   'Author',
                                   style: AppStyle.textStyle14.copyWith(
-                                      fontSize: 11,
-                                      fontWeight: FontWeight.w300,
-                                      color: const Color(0xff9091A0)),
+                                    fontSize: 11,
+                                    fontWeight: FontWeight.w300,
+                                    color: MyTheme.greyColor,
+                                  ),
                                 ),
                                 Text(
                                   'Morgan Housel',
                                   style: AppStyle.textStyle18.copyWith(
-                                    color: const Color(0xff4D506C),
+                                    color: MyTheme.blackColor,
                                   ),
                                 ),
                                 const SizedBox(
@@ -120,9 +121,10 @@ class _BookDetailsViewBodyState extends State<BookDetailsViewBody> {
                                 Text(
                                   'Best Seller of New York Times',
                                   style: AppStyle.textStyle14.copyWith(
-                                      fontSize: 11,
-                                      fontWeight: FontWeight.w300,
-                                      color: const Color(0xff9091A0)),
+                                    fontSize: 11,
+                                    fontWeight: FontWeight.w300,
+                                    color: MyTheme.greyColor,
+                                  ),
                                 ),
                               ],
                             ),
@@ -141,8 +143,9 @@ class _BookDetailsViewBodyState extends State<BookDetailsViewBody> {
                 padding: const EdgeInsets.symmetric(horizontal: 16),
                 child: Text(
                   'About The Book',
-                  style: AppStyle.textStyle20
-                      .copyWith(color: const Color(0xff4D506C)),
+                  style: AppStyle.textStyle20.copyWith(
+                    color: MyTheme.blackColor,
+                  ),
                 ),
               ),
               Padding(
@@ -150,13 +153,14 @@ class _BookDetailsViewBodyState extends State<BookDetailsViewBody> {
                 child: Text(
                   'The Psychology of Money\' is an essential read for anyone interested in being better with money. Fast-paced and engaging, this book will help you refine your thoughts towards money. You can finish this book in a week, unlike other books that are too lengthy. The most important emotions in relation to money are fear, guilt, shame and envy. It\'s worth spending some effort to become aware of the emotions that are especially tied to money for you because, without awareness, they will tend to override rational thinking and drive your actions.',
                   style: AppStyle.textStyle14.copyWith(
-                      fontFamily: 'SpaceGrotesk',
-                      fontWeight: FontWeight.w400,
-                      color: const Color(0xff9091A0)),
+                    fontFamily: 'SpaceGrotesk',
+                    fontWeight: FontWeight.w400,
+                    color: MyTheme.greyColor,
+                  ),
                 ),
               ),
               const BookDetailsListViewBuilder(),
-              CustomDetailsBookActions(),
+              const CustomDetailsBookActions(),
             ],
           ),
         ),

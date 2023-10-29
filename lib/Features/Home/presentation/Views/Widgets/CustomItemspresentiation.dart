@@ -1,4 +1,4 @@
-import 'package:bookly_2/core/Widgets/CustomBottom.dart';
+import 'package:bookly_2/core/utils/MyTheme.dart';
 import 'package:bookly_2/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +16,7 @@ class CustomItemspresentiation extends StatelessWidget {
         height: MediaQuery.of(context).size.height / 5,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(22),
-          color: Colors.white,
+          color: MyTheme.whiteColor,
           boxShadow: [
             BoxShadow(
               color: Colors.grey.withOpacity(0.5),
@@ -72,10 +72,10 @@ class CustomItemspresentiation extends StatelessWidget {
                         const SizedBox(
                           width: 10,
                         ),
-                        const Text(
+                        Text(
                           'Learn More',
                           style: TextStyle(
-                              color: Color(0xff4D506C),
+                              color: MyTheme.blackColor,
                               fontSize: 13,
                               fontWeight: FontWeight.w700),
                         )

@@ -11,8 +11,9 @@ class CustomBookListViewItems extends StatelessWidget {
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(500),
             image: const DecorationImage(
-                image: AssetImage('assets/images/listViewphoto.png'),
-                fit: BoxFit.cover)),
+              image: AssetImage('assets/images/listViewphoto.png'),
+              fit: BoxFit.cover,
+            )),
       ),
     );
   }

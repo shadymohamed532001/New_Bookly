@@ -1,5 +1,6 @@
 import 'package:bookly_2/Features/OnBording/presentation/Views/widgets/ListOfOnBordingContinte.dart';
 import 'package:bookly_2/core/utils/AppRoutes.dart';
+import 'package:bookly_2/core/utils/MyTheme.dart';
 import 'package:bookly_2/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
@@ -30,7 +31,7 @@ class CustomOnBordBottom extends StatelessWidget {
                   curve: Curves.bounceIn);
             },
             style: ElevatedButton.styleFrom(
-              backgroundColor: const Color(0XFFDE7773),
+              backgroundColor: MyTheme.primaryColor,
               shadowColor: Colors.grey,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(25),

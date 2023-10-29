@@ -4,6 +4,7 @@ import 'package:bookly_2/Features/Splash/presentation/Views/widgets/CusytomClipe
 import 'package:bookly_2/Features/Splash/presentation/Views/widgets/SlidingLogoAnimation.dart';
 import 'package:bookly_2/core/utils/AppRoutes.dart';
 import 'package:bookly_2/core/utils/CliperShape.dart';
+import 'package:bookly_2/core/utils/MyTheme.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
@@ -42,7 +43,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
       child: Stack(
         children: [
           CusytomCliper(
-            ClipColor: const Color(0XFFDE7773),
+            ClipColor: MyTheme.primaryColor,
             clipper: Container1Clipper(),
             width: double.infinity,
           ),

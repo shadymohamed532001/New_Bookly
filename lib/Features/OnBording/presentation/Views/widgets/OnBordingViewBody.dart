@@ -2,6 +2,7 @@ import 'package:bookly_2/Features/OnBording/presentation/Views/widgets/CustomOnB
 import 'package:bookly_2/Features/OnBording/presentation/Views/widgets/CustomSkiper.dart';
 import 'package:bookly_2/Features/OnBording/presentation/Views/widgets/ListOfOnBordingContinte.dart';
 import 'package:bookly_2/core/utils/AppRoutes.dart';
+import 'package:bookly_2/core/utils/MyTheme.dart';
 import 'package:bookly_2/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
@@ -66,7 +67,7 @@ class _OnBordingViewBodyState extends State<OnBordingViewBody> {
                       style: AppStyle.textStyle20.copyWith(
                         fontWeight: FontWeight.w800,
                         fontFamily: 'NanumGothic',
-                        color: const Color(0xff292B38),
+                        color: MyTheme.blackColor,
                       ),
                     ),
                     const SizedBox(
@@ -79,7 +80,7 @@ class _OnBordingViewBodyState extends State<OnBordingViewBody> {
                           continte[index].subtittle,
                           textAlign: TextAlign.center,
                           style: GoogleFonts.spaceGrotesk(
-                            color: const Color(0XFF292B38),
+                            color: MyTheme.blackColor,
                             fontSize: 15,
                             fontWeight: FontWeight.w400,
                           ),
@@ -102,7 +103,7 @@ class _OnBordingViewBodyState extends State<OnBordingViewBody> {
                     margin: const EdgeInsets.only(right: 5),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
-                      color: const Color(0XFFDE7773),
+                      color: MyTheme.primaryColor,
                     ),
                   )),
         ),

@@ -2,10 +2,10 @@ import 'package:bookly_2/core/utils/constanse.dart';
 import 'package:flutter/material.dart';
 
 class MyTheme {
-  static Color primaryColor = const Color(0xff517261);
-  static Color blackColor = const Color(0xff1E1E1E);
+  static Color primaryColor = const Color(0XFFDE7773);
+  static Color blackColor = const Color(0xff171B36);
   static Color whiteColor = const Color(0xffFFFFFF);
-  static Color greyColor = const Color(0xffA7A6A5);
+  static Color greyColor = const Color(0xff9091A0);
   static Color greyColorBackGround = const Color(0xffE2E3E2);
 
   static ThemeData lightTheme = ThemeData(
