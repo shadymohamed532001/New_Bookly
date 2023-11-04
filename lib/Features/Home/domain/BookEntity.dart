@@ -1,11 +1,20 @@
-class BookEntitiy {
+import 'package:hive/hive.dart';
+
+// part 'BookEntity.g.dart';
+@HiveType(typeId: 0)
+class BookEntitiy extends HiveObject {
+  @HiveField(0)
   final String imagepath;
+  @HiveField(1)
   final String title;
+  @HiveField(2)
   final num price;
+  @HiveField(3)
   final String authername;
+  @HiveField(4)
   final String description;
-  final num averageRating;
-  final num ratingsCount;
+  @HiveField(5)
+  final String bookid;
 
   BookEntitiy({
     required this.imagepath,
@@ -13,7 +22,6 @@ class BookEntitiy {
     required this.price,
     required this.authername,
     required this.description,
-    required this.averageRating,
-    required this.ratingsCount,
+    required this.bookid,
   });
 }

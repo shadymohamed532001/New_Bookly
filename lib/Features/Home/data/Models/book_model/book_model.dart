@@ -1,4 +1,4 @@
-import 'package:bookly_2/Features/Home/domain/Entities/BookEntity.dart';
+import 'package:bookly_2/Features/Home/domain/BookEntity.dart';
 
 import 'item.dart';
 
@@ -9,13 +9,12 @@ class BookModel extends BookEntitiy {
 
   BookModel({this.kind, this.totalItems, this.items})
       : super(
-          imagepath: '',
-          title: '',
-          price: null,
-          authername: '',
-          description: '',
-          averageRating: null,
-          ratingsCount: null,
+          imagepath: items![0].volumeInfo?.imageLinks?.thumbnail ?? '',
+          title: items[0].volumeInfo!.title!,
+          price: items[0].saleInfo!.listPrice!.amount!,
+          authername: items[0].volumeInfo?.authors?.first ?? 'No Name',
+          description: items[0].volumeInfo!.description ?? 'No Discraption',
+          bookid: items[0].id!,
         );
 
   factory BookModel.fromJson(Map<String, dynamic> json) => BookModel(
