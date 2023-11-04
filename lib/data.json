@@ -1,0 +1,908 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 457,
+    "items": [
+        {
+            "kind": "books#volume",
+            "id": "KF0PEAAAQBAJ",
+            "etag": "9j/GakIe6Bs",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/KF0PEAAAQBAJ",
+            "volumeInfo": {
+                "title": "Computer Programming for Beginners",
+                "subtitle": "A Step-By-Step Guide",
+                "authors": [
+                    "Murali Chemuturi"
+                ],
+                "publisher": "CRC Press",
+                "publishedDate": "2018-09-03",
+                "description": "This book aims to capture the fundamentals of computer programming without tying the topic to any specific programming language. To the best of the authors’ knowledge there is no such book in the market.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780429842153"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0429842155"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 258,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.1.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=KF0PEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=KF0PEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.eg/books?id=KF0PEAAAQBAJ&printsec=frontcover&dq=programing&hl=&cd=1&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=KF0PEAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=KF0PEAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "EG",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 2231.96,
+                    "currencyCode": "EGP"
+                },
+                "retailPrice": {
+                    "amount": 2231.96,
+                    "currencyCode": "EGP"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=KF0PEAAAQBAJ&rdid=book-KF0PEAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 2231960000,
+                            "currencyCode": "EGP"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 2231960000,
+                            "currencyCode": "EGP"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "EG",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.eg/books/download/Computer_Programming_for_Beginners-sample-pdf.acsm?id=KF0PEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=KF0PEAAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "This book aims to capture the fundamentals of computer programming without tying the topic to any specific programming language. To the best of the authors’ knowledge there is no such book in the market."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "kse_7qbWbjsC",
+            "etag": "D+rZ9arQ/zE",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/kse_7qbWbjsC",
+            "volumeInfo": {
+                "title": "Programming Pearls",
+                "authors": [
+                    "Jon Louis Bentley"
+                ],
+                "publisher": "Addison-Wesley Professional",
+                "publishedDate": "2000",
+                "description": "A guide to practical programming techniques and design principles, with information on such topics as testing, debugging and timing, set representations, and string problems.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0201657880"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780201657883"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 262,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "averageRating": 4.5,
+                "ratingsCount": 25,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.3.4.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=kse_7qbWbjsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=kse_7qbWbjsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.eg/books?id=kse_7qbWbjsC&printsec=frontcover&dq=programing&hl=&cd=2&source=gbs_api",
+                "infoLink": "http://books.google.com.eg/books?id=kse_7qbWbjsC&dq=programing&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Programming_Pearls.html?hl=&id=kse_7qbWbjsC"
+            },
+            "saleInfo": {
+                "country": "EG",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "EG",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=kse_7qbWbjsC&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "&quot;--BOOK JACKET. &quot;The first edition of Programming Pearls was one of the most influential books I read early in my career, and many of the insights I first encountered in that book stayed with me long after I read it."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "k1UZAQAAIAAJ",
+            "etag": "j0kGvr4njJs",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/k1UZAQAAIAAJ",
+            "volumeInfo": {
+                "title": "360/370 Programing in Assembly Language",
+                "authors": [
+                    "Ned Chapin"
+                ],
+                "publisher": "McGraw-Hill Companies",
+                "publishedDate": "1973",
+                "description": "The computer; Computer and language features; Data representation; Data movement; Arithmetic operations; Program control; Input, output and job control; Debugging; Problem analysis; Data manipulation; Tape and disk operations; Floating-point operations; Subroutine and macros.",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "STANFORD:36105031888485"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 600,
+                "printType": "BOOK",
+                "categories": [
+                    "Assembler language (Computer program language)"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.3.1.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=k1UZAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=k1UZAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.eg/books?id=k1UZAQAAIAAJ&q=programing&dq=programing&hl=&cd=3&source=gbs_api",
+                "infoLink": "http://books.google.com.eg/books?id=k1UZAQAAIAAJ&dq=programing&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/360_370_Programing_in_Assembly_Language.html?hl=&id=k1UZAQAAIAAJ"
+            },
+            "saleInfo": {
+                "country": "EG",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "EG",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=k1UZAQAAIAAJ&hl=&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "The computer; Computer and language features; Data representation; Data movement; Arithmetic operations; Program control; Input, output and job control; Debugging; Problem analysis; Data manipulation; Tape and disk operations; Floating ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "gL34DwAAQBAJ",
+            "etag": "Ro4N69nkyMs",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/gL34DwAAQBAJ",
+            "volumeInfo": {
+                "title": "Concepts, Techniques, and Models of Computer Programming",
+                "authors": [
+                    "Peter Van Roy",
+                    "Seif Haridi"
+                ],
+                "publisher": "MIT Press",
+                "publishedDate": "2004-02-20",
+                "description": "Teaching the science and the technology of programming as a unified discipline that shows the deep relationships between programming paradigms. This innovative text presents computer programming as a unified discipline in a way that is both practical and scientifically sound. The book focuses on techniques of lasting value and explains them precisely in terms of a simple abstract machine. The book presents all major programming paradigms in a uniform framework that shows their deep relationships and how and where to use them together. After an introduction to programming concepts, the book presents both well-known and lesser-known computation models (\"programming paradigms\"). Each model has its own set of techniques and each is included on the basis of its usefulness in practice. The general models include declarative programming, declarative concurrency, message-passing concurrency, explicit state, object-oriented programming, shared-state concurrency, and relational programming. Specialized models include graphical user interface programming, distributed programming, and constraint programming. Each model is based on its kernel language—a simple core language that consists of a small number of programmer-significant elements. The kernel languages are introduced progressively, adding concepts one by one, thus showing the deep relationships between different models. The kernel languages are defined precisely in terms of a simple abstract machine. Because a wide variety of languages and programming paradigms can be modeled by a small set of closely related kernel languages, this approach allows programmer and student to grasp the underlying unity of programming. The book has many program fragments and exercises, all of which can be run on the Mozart Programming System, an Open Source software package that features an interactive incremental development environment.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780262220699"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0262220695"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 931,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.0.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=gL34DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=gL34DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.eg/books?id=gL34DwAAQBAJ&printsec=frontcover&dq=programing&hl=&cd=4&source=gbs_api",
+                "infoLink": "http://books.google.com.eg/books?id=gL34DwAAQBAJ&dq=programing&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Concepts_Techniques_and_Models_of_Comput.html?hl=&id=gL34DwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "EG",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "EG",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.eg/books/download/Concepts_Techniques_and_Models_of_Comput-sample-pdf.acsm?id=gL34DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=gL34DwAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "This innovative text presents computer programming as a unified discipline in a way that is both practical and scientifically sound."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "_KbfCQAAQBAJ",
+            "etag": "34tG67mKqX0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/_KbfCQAAQBAJ",
+            "volumeInfo": {
+                "title": "The Practice of Programming",
+                "authors": [
+                    "Brian W. Kernighan",
+                    "Rob Pike"
+                ],
+                "publisher": "Addison-Wesley Professional",
+                "publishedDate": "1999-02-09",
+                "description": "With the same insight and authority that made their book The Unix Programming Environment a classic, Brian Kernighan and Rob Pike have written The Practice of Programming to help make individual programmers more effective and productive. The practice of programming is more than just writing code. Programmers must also assess tradeoffs, choose among design alternatives, debug and test, improve performance, and maintain software written by themselves and others. At the same time, they must be concerned with issues like compatibility, robustness, and reliability, while meeting specifications. The Practice of Programming covers all these topics, and more. This book is full of practical advice and real-world examples in C, C++, Java, and a variety of special-purpose languages. It includes chapters on: debugging: finding bugs quickly and methodically testing: guaranteeing that software works correctly and reliably performance: making programs faster and more compact portability: ensuring that programs run everywhere without change design: balancing goals and constraints to decide which algorithms and data structures are best interfaces: using abstraction and information hiding to control the interactions between components style: writing code that works well and is a pleasure to read notation: choosing languages and tools that let the machine do more of the work Kernighan and Pike have distilled years of experience writing programs, teaching, and working with other programmers to create this book. Anyone who writes software will profit from the principles and guidance in The Practice of Programming.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780133133417"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0133133419"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 283,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "averageRating": 5,
+                "ratingsCount": 1,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "0.5.4.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=_KbfCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=_KbfCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.eg/books?id=_KbfCQAAQBAJ&printsec=frontcover&dq=programing&hl=&cd=5&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=_KbfCQAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=_KbfCQAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "EG",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 779.84,
+                    "currencyCode": "EGP"
+                },
+                "retailPrice": {
+                    "amount": 779.84,
+                    "currencyCode": "EGP"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=_KbfCQAAQBAJ&rdid=book-_KbfCQAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 779840000,
+                            "currencyCode": "EGP"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 779840000,
+                            "currencyCode": "EGP"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "EG",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=_KbfCQAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "The Practice of Programming covers all these topics, and more. This book is full of practical advice and real-world examples in C, C++, Java, and a variety of special-purpose languages."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "b7szDwAAQBAJ",
+            "etag": "fZBRSrlCFL8",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/b7szDwAAQBAJ",
+            "volumeInfo": {
+                "title": "Programming Language Concepts",
+                "authors": [
+                    "Peter Sestoft"
+                ],
+                "publisher": "Springer",
+                "publishedDate": "2017-08-31",
+                "description": "This book uses a functional programming language (F#) as a metalanguage to present all concepts and examples, and thus has an operational flavour, enabling practical experiments and exercises. It includes basic concepts such as abstract syntax, interpretation, stack machines, compilation, type checking, garbage collection, and real machine code. Also included are more advanced topics on polymorphic types, type inference using unification, co- and contravariant types, continuations, and backwards code generation with on-the-fly peephole optimization. This second edition includes two new chapters. One describes compilation and type checking of a full functional language, tying together the previous chapters. The other describes how to compile a C subset to real (x86) hardware, as a smooth extension of the previously presented compilers.The examples present several interpreters and compilers for toy languages, including compilers for a small but usable subset of C, abstract machines, a garbage collector, and ML-style polymorphic type inference. Each chapter has exercises. Programming Language Concepts covers practical construction of lexers and parsers, but not regular expressions, automata and grammars, which are well covered already. It discusses the design and technology of Java and C# to strengthen students’ understanding of these widely used languages.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9783319607894"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "3319607898"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 341,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.1.2.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=b7szDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=b7szDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.eg/books?id=b7szDwAAQBAJ&printsec=frontcover&dq=programing&hl=&cd=6&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=b7szDwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=b7szDwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "EG",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 1968.68,
+                    "currencyCode": "EGP"
+                },
+                "retailPrice": {
+                    "amount": 1968.68,
+                    "currencyCode": "EGP"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=b7szDwAAQBAJ&rdid=book-b7szDwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 1968680000,
+                            "currencyCode": "EGP"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 1968680000,
+                            "currencyCode": "EGP"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "EG",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.eg/books/download/Programming_Language_Concepts-sample-epub.acsm?id=b7szDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.eg/books/download/Programming_Language_Concepts-sample-pdf.acsm?id=b7szDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=b7szDwAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "This book uses a functional programming language (F#) as a metalanguage to present all concepts and examples, and thus has an operational flavour, enabling practical experiments and exercises."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "6DsPEAAAQBAJ",
+            "etag": "bKCUS1XNKPk",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/6DsPEAAAQBAJ",
+            "volumeInfo": {
+                "title": "R for Programmers",
+                "subtitle": "Advanced Techniques",
+                "authors": [
+                    "Dan Zhang"
+                ],
+                "publisher": "CRC Press",
+                "publishedDate": "2017-03-31",
+                "description": "This book discusses advanced topics such as R core programing, object oriented R programing, parallel computing with R, and spatial data types. The author leads readers to merge mature and effective methdologies in traditional programing to R programing. It shows how to interface R with C, Java, and other popular programing laguages and platforms.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781498736886"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1498736882"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 406,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.0.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=6DsPEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=6DsPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.eg/books?id=6DsPEAAAQBAJ&printsec=frontcover&dq=programing&hl=&cd=7&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=6DsPEAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=6DsPEAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "EG",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 3219.34,
+                    "currencyCode": "EGP"
+                },
+                "retailPrice": {
+                    "amount": 3219.34,
+                    "currencyCode": "EGP"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=6DsPEAAAQBAJ&rdid=book-6DsPEAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 3219340000,
+                            "currencyCode": "EGP"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 3219340000,
+                            "currencyCode": "EGP"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "EG",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.eg/books/download/R_for_Programmers-sample-pdf.acsm?id=6DsPEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=6DsPEAAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "This book discusses advanced topics such as R core programing, object oriented R programing, parallel computing with R, and spatial data types."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "OqejBQAAQBAJ",
+            "etag": "tOMAd0ACOb0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/OqejBQAAQBAJ",
+            "volumeInfo": {
+                "title": "From Pixels to Animation",
+                "subtitle": "An Introduction to Graphics Programming",
+                "authors": [
+                    "James Alan Farrell"
+                ],
+                "publisher": "Academic Press",
+                "publishedDate": "2014-05-10",
+                "description": "From Pixels to Animation: An Introduction to Graphics Programming deals with the C programming language, particularly for the Borland C and Microsoft C languages. The book reviews the basics of graphics programming, including graphics hardware, graphs, charts, changing colors, 3D graphics, high level functions provided by Borland and Microsoft C. The text also explains low-level graphics, getting around the limitations of standard, graphics libraries, SVGA programming, and creating graphics functions. Advanced topics include linear transformations, ray tracing, and fractals. The book explains in detail the aspect ratio of pixels (length of the pixel dot divided by its width), pixel colors, line styles, and the functions to create the graphic. The text also describes the presentation of a three-dimensional object by using perspective, shading, and texturing. Between the operating system, which carries out the instruction of the program, and the hardware, which displays the output of the program, is the Basic Input/Output Services (BIOS). The BIOS is a set of routine instruction inside the different parts or hardware devices in the computer. The book explains programing animation effects by utilizing routines provided by Microsoft or Borland. The text also notes that a programmer can create good animation effects by directly addressing the graphics adapter, bypassing the BIOS or the high-level routines created by Microsoft or Borland. The book is suitable for beginning programmers, computer science, operators, animators, and artists involved with computer aided designs.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781483265681"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1483265684"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 692,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=OqejBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=OqejBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.eg/books?id=OqejBQAAQBAJ&printsec=frontcover&dq=programing&hl=&cd=8&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=OqejBQAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=OqejBQAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "EG",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 3308.57,
+                    "currencyCode": "EGP"
+                },
+                "retailPrice": {
+                    "amount": 3308.57,
+                    "currencyCode": "EGP"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=OqejBQAAQBAJ&rdid=book-OqejBQAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 3308570000,
+                            "currencyCode": "EGP"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 3308570000,
+                            "currencyCode": "EGP"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "EG",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.eg/books/download/From_Pixels_to_Animation-sample-pdf.acsm?id=OqejBQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=OqejBQAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "The book is suitable for beginning programmers, computer science, operators, animators, and artists involved with computer aided designs."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "wU1WEAAAQBAJ",
+            "etag": "9vBg1uy0EX8",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/wU1WEAAAQBAJ",
+            "volumeInfo": {
+                "title": "A Small Matter of Programming",
+                "subtitle": "Perspectives on End User Computing",
+                "authors": [
+                    "Bonnie A. Nardi"
+                ],
+                "publisher": "MIT Press",
+                "publishedDate": "1993-07-15",
+                "description": "A Small Matter of Programming asks why it has been so difficult for end users to command programming power and explores the problems of end user-driven application development that must be solved to afford end users greater computational power. Drawing on empirical research on existing end user systems, A Small Matter of Programming analyzes cognitive, social, and technical issues of end user programming. In particular, it examines the importance of task-specific programming languages, visual application frameworks, and collaborative work practices for end user computing, with the goal of helping designers and programmers understand and better satisfy the needs of end users who want the capability to create, customize, and extend their applications software. The ideas in the book are based on the author's research on two successful end user programming systems - spreadsheets and CAD systems - as well as other empirical research. Nardi concentrates on broad issues in end user programming, especially end users' strengths and problems, introducing tools and techniques as they are related to higher-level user issues. Bonnie A. Nardi is a Member of the Technical Staff at Hewlett Packard Laboratories.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780262292368"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "026229236X"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 196,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.2.2.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=wU1WEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=wU1WEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.eg/books?id=wU1WEAAAQBAJ&printsec=frontcover&dq=programing&hl=&cd=9&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=wU1WEAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=wU1WEAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "EG",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 1408.38,
+                    "currencyCode": "EGP"
+                },
+                "retailPrice": {
+                    "amount": 1408.38,
+                    "currencyCode": "EGP"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=wU1WEAAAQBAJ&rdid=book-wU1WEAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 1408380000,
+                            "currencyCode": "EGP"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 1408380000,
+                            "currencyCode": "EGP"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "EG",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.eg/books/download/A_Small_Matter_of_Programming-sample-epub.acsm?id=wU1WEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.eg/books/download/A_Small_Matter_of_Programming-sample-pdf.acsm?id=wU1WEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=wU1WEAAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "The ideas in the book are based on the author&#39;s research on two successful end user programming systems - spreadsheets and CAD systems - as well as other empirical research."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "5wBQEp6ruIAC",
+            "etag": "VMx5of8g9Vs",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/5wBQEp6ruIAC",
+            "volumeInfo": {
+                "title": "The Pragmatic Programmer",
+                "subtitle": "From Journeyman to Master",
+                "authors": [
+                    "Andrew Hunt",
+                    "David Thomas"
+                ],
+                "publisher": "Addison-Wesley Professional",
+                "publishedDate": "1999-10-20",
+                "description": "What others in the trenches say about The Pragmatic Programmer... “The cool thing about this book is that it’s great for keeping the programming process fresh. The book helps you to continue to grow and clearly comes from people who have been there.” — Kent Beck, author of Extreme Programming Explained: Embrace Change “I found this book to be a great mix of solid advice and wonderful analogies!” — Martin Fowler, author of Refactoring and UML Distilled “I would buy a copy, read it twice, then tell all my colleagues to run out and grab a copy. This is a book I would never loan because I would worry about it being lost.” — Kevin Ruland, Management Science, MSG-Logistics “The wisdom and practical experience of the authors is obvious. The topics presented are relevant and useful.... By far its greatest strength for me has been the outstanding analogies—tracer bullets, broken windows, and the fabulous helicopter-based explanation of the need for orthogonality, especially in a crisis situation. I have little doubt that this book will eventually become an excellent source of useful information for journeymen programmers and expert mentors alike.” — John Lakos, author of Large-Scale C++ Software Design “This is the sort of book I will buy a dozen copies of when it comes out so I can give it to my clients.” — Eric Vought, Software Engineer “Most modern books on software development fail to cover the basics of what makes a great software developer, instead spending their time on syntax or technology where in reality the greatest leverage possible for any software team is in having talented developers who really know their craft well. An excellent book.” — Pete McBreen, Independent Consultant “Since reading this book, I have implemented many of the practical suggestions and tips it contains. Across the board, they have saved my company time and money while helping me get my job done quicker! This should be a desktop reference for everyone who works with code for a living.” — Jared Richardson, Senior Software Developer, iRenaissance, Inc. “I would like to see this issued to every new employee at my company....” — Chris Cleeland, Senior Software Engineer, Object Computing, Inc. “If I’m putting together a project, it’s the authors of this book that I want. . . . And failing that I’d settle for people who’ve read their book.” — Ward Cunningham Straight from the programming trenches, The Pragmatic Programmer cuts through the increasing specialization and technicalities of modern software development to examine the core process--taking a requirement and producing working, maintainable code that delights its users. It covers topics ranging from personal responsibility and career development to architectural techniques for keeping your code flexible and easy to adapt and reuse. Read this book, and you'll learn how to Fight software rot; Avoid the trap of duplicating knowledge; Write flexible, dynamic, and adaptable code; Avoid programming by coincidence; Bullet-proof your code with contracts, assertions, and exceptions; Capture real requirements; Test ruthlessly and effectively; Delight your users; Build teams of pragmatic programmers; and Make your developments more precise with automation. Written as a series of self-contained sections and filled with entertaining anecdotes, thoughtful examples, and interesting analogies, The Pragmatic Programmer illustrates the best practices and major pitfalls of many different aspects of software development. Whether you're a new coder, an experienced programmer, or a manager responsible for software projects, use these lessons daily, and you'll quickly see improvements in personal productivity, accuracy, and job satisfaction. You'll learn skills and develop habits and attitudes that form the foundation for long-term success in your career. You'll become a Pragmatic Programmer.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780132119177"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "013211917X"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 346,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "averageRating": 4.5,
+                "ratingsCount": 7,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "2.18.11.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=5wBQEp6ruIAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=5wBQEp6ruIAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.eg/books?id=5wBQEp6ruIAC&printsec=frontcover&dq=programing&hl=&cd=10&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=5wBQEp6ruIAC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=5wBQEp6ruIAC"
+            },
+            "saleInfo": {
+                "country": "EG",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 779.84,
+                    "currencyCode": "EGP"
+                },
+                "retailPrice": {
+                    "amount": 779.84,
+                    "currencyCode": "EGP"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=5wBQEp6ruIAC&rdid=book-5wBQEp6ruIAC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 779840000,
+                            "currencyCode": "EGP"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 779840000,
+                            "currencyCode": "EGP"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "EG",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=5wBQEp6ruIAC&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "What others in the trenches say about The Pragmatic Programmer... “The cool thing about this book is that it’s great for keeping the programming process fresh."
+            }
+        }
+    ]
+}
