@@ -1,9 +1,9 @@
 // ignore_for_file: constant_identifier_names
 
-import 'package:bookly_2/Features/Home/presentation/Views/BookDetialsVoew.dart';
-import 'package:bookly_2/Features/Home/presentation/Views/BookHomeView.dart';
-import 'package:bookly_2/Features/OnBording/presentation/Views/OnBordingView.dart';
-import 'package:bookly_2/Features/Splash/presentation/Views/SplahView.dart';
+import 'package:bookly_2/Features/Home/presentation/Views/book_detials_view.dart';
+import 'package:bookly_2/Features/Home/presentation/Views/book_home_view.dart';
+import 'package:bookly_2/Features/OnBording/presentation/Views/onbording_view.dart';
+import 'package:bookly_2/Features/Splash/presentation/Views/splah_view.dart';
 import 'package:go_router/go_router.dart';
 
 abstract class AppRouter {

@@ -1,4 +1,4 @@
-import 'package:bookly_2/Features/OnBording/presentation/Views/widgets/OnBordingViewBody.dart';
+import 'package:bookly_2/Features/OnBording/presentation/Views/widgets/onbording_view_body.dart';
 import 'package:flutter/material.dart';
 
 class OnBordingView extends StatelessWidget {

@@ -1,4 +1,4 @@
-import 'package:bookly_2/Features/Home/domain/BookEntity.dart';
+import 'package:bookly_2/Features/Home/domain/entity/book_entity.dart';
 
 import 'item.dart';
 

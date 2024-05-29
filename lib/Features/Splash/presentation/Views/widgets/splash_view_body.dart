@@ -1,10 +1,10 @@
 // ignore_for_file: file_names
 
-import 'package:bookly_2/Features/Splash/presentation/Views/widgets/CusytomCliper.dart';
-import 'package:bookly_2/Features/Splash/presentation/Views/widgets/SlidingLogoAnimation.dart';
-import 'package:bookly_2/core/utils/AppRoutes.dart';
-import 'package:bookly_2/core/utils/CliperShape.dart';
-import 'package:bookly_2/core/utils/MyTheme.dart';
+import 'package:bookly_2/Features/Splash/presentation/Views/widgets/cusytom_cliper.dart';
+import 'package:bookly_2/Features/Splash/presentation/Views/widgets/sliding_logo_animation.dart';
+import 'package:bookly_2/core/utils/app_routes.dart';
+import 'package:bookly_2/core/utils/cliper_shape.dart';
+import 'package:bookly_2/core/utils/my_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 

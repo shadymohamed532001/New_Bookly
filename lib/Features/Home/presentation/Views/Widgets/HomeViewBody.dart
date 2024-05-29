@@ -1,4 +1,4 @@
-import 'package:bookly_2/Features/Home/presentation/Views/Widgets/BestSillerListView.dart';
+import 'package:bookly_2/Features/Home/presentation/Views/Widgets/best_siller_list_view.dart';
 import 'package:bookly_2/Features/Home/presentation/Views/Widgets/FeaturedListView.dart';
 import 'package:bookly_2/Features/Home/presentation/Views/Widgets/CustomItemspresentiation.dart';
 import 'package:bookly_2/Features/Home/presentation/Views/Widgets/HomeAppBar.dart';

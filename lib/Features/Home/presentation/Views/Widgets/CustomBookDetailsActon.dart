@@ -1,5 +1,5 @@
-import 'package:bookly_2/core/Widgets/CustomBottom.dart';
-import 'package:bookly_2/core/utils/MyTheme.dart';
+import 'package:bookly_2/core/Widgets/custom_bottom.dart';
+import 'package:bookly_2/core/utils/my_theme.dart';
 import 'package:flutter/material.dart';
 
 class CustomDetailsBookActions extends StatelessWidget {

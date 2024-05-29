@@ -1,7 +1,7 @@
 import 'package:bookly_2/Features/Home/presentation/Views/Widgets/BookDetailsListViewBuilder.dart';
 import 'package:bookly_2/Features/Home/presentation/Views/Widgets/CustomBookDetailsActon.dart';
 import 'package:bookly_2/Features/Home/presentation/Views/Widgets/customBookRate.dart';
-import 'package:bookly_2/core/utils/MyTheme.dart';
+import 'package:bookly_2/core/utils/my_theme.dart';
 import 'package:bookly_2/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 

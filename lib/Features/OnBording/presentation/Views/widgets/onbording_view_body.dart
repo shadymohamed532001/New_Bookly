@@ -1,8 +1,8 @@
-import 'package:bookly_2/Features/OnBording/presentation/Views/widgets/CustomOnBordBottom.dart';
-import 'package:bookly_2/Features/OnBording/presentation/Views/widgets/CustomSkiper.dart';
-import 'package:bookly_2/Features/OnBording/presentation/Views/widgets/ListOfOnBordingContinte.dart';
-import 'package:bookly_2/core/utils/AppRoutes.dart';
-import 'package:bookly_2/core/utils/MyTheme.dart';
+import 'package:bookly_2/Features/OnBording/presentation/Views/widgets/custom_onBord_bottom.dart';
+import 'package:bookly_2/Features/OnBording/presentation/Views/widgets/custom_skiper.dart';
+import 'package:bookly_2/Features/OnBording/presentation/Views/widgets/list_of_onbording_continte.dart';
+import 'package:bookly_2/core/utils/app_routes.dart';
+import 'package:bookly_2/core/utils/my_theme.dart';
 import 'package:bookly_2/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';

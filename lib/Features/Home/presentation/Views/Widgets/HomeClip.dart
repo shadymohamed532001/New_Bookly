@@ -1,4 +1,4 @@
-import 'package:bookly_2/core/utils/CliperShape.dart';
+import 'package:bookly_2/core/utils/cliper_shape.dart';
 import 'package:flutter/material.dart';
 
 class HomeClip extends StatelessWidget {
