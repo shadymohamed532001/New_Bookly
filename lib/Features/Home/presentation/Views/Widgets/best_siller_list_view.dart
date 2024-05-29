@@ -1,5 +1,5 @@
 
-import 'package:bookly_2/Features/Home/presentation/Views/Widgets/BestSillerListViewItems.dart';
+import 'package:bookly_2/Features/Home/presentation/Views/Widgets/best_siller_list_view_items.dart';
 import 'package:flutter/material.dart';
 
 class BestSillerListView extends StatelessWidget {

@@ -1,6 +1,5 @@
 import 'package:hive/hive.dart';
 
-// part 'BookEntity.g.dart';
 @HiveType(typeId: 0)
 class BookEntitiy extends HiveObject {
   @HiveField(0)

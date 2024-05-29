@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:bookly_2/Features/Home/presentation/Views/Widgets/customBookRate.dart';
 import 'package:bookly_2/core/utils/app_routes.dart';
 import 'package:bookly_2/core/utils/styles.dart';

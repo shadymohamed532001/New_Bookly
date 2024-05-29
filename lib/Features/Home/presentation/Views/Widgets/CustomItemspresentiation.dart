@@ -55,8 +55,11 @@ class CustomItemspresentiation extends StatelessWidget {
                     ),
                     Text(
                       'The psychology of money is the study of our behavior with money. Success with money isn\'t about knowledge, IQ or how good you are at math It\'s about behavior, and everyone is prone to certain behaviors over others.',
+                      maxLines: 5,
                       style: AppStyle.textStyle14.copyWith(
-                          fontSize: 10, color: const Color(0xff9091A0)),
+                        fontSize: 10,
+                        color: const Color(0xff9091A0),
+                      ),
                     ),
                     const SizedBox(
                       height: 20,
